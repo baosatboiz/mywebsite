@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/download.png">
+    <title>V-league</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            color: white;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .logo a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex: 1;
+            margin-top: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+            background-color: white;
+            margin: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            min-height: 300px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+            <img src="image/download.png" alt="Logo"></a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Trang chủ</a>
+            <a href="BxhvaLichthidau.html">Bảng xếp hạng và lịch thi đấu </a>
+            <a href="CLbcothanhtichtot.html">Các câu lạc bộ có thành tích tốt</a>
+            <a href="Cacsanvandong.html">Các sân vận động </a>
+        </div>
+    </div>
+    <div class="content">
+        <h2> Bảng xếp hạng và lịch thi đấu mùa giải 2024/2025 </h2>
+    </div>
+    <div class="container">
+        <div class="column">
+            <a target="_blank" href="/BXH/bxh.html"><h2>Bảng xếp hạng</h2>
+            <img src="image/bang_xep_hang_v-league_sau_vong_4.webp" width="300px"></a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="/BXH/lichthidau.html"><h2>Lịch thi đấu</h2>
+            <img src="image/lich_thi_dau_v-league_vong_moi_nhat.png.webp" width="300px" height="350px"></a>
+        </div>
+        <div class="column">
+            <a  target="_blank" href="/BXH/gthieu.html"><h2>Dự đoán nhà vô địch V-league 24/25</h2>
+           <img src="image/images.jpg" width="300px" height="320px"></a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        &copy; 2025 Website của TranGiaHuy11A2Toan. Mọi quyền được bảo lưu.
+    </div>
+</body>
+</html>
